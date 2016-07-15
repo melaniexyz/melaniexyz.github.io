@@ -1,3 +1,59 @@
+body {
+    margin: 0px;    
+}
+
+/*heading*/
+
+#title {
+    margin: 0px;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: white;
+    
+}
+
+#stickynav {
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: "oswald";
+    background-color: darkblue;
+    width: 100%;
+    padding: 0px;
+}
+
+#stickynav a {
+    text-decoration: none;
+    color: white;
+}
+
 #nav {
-    font: 12px "Roboto",  sans-serif
+    margin-top: 0px;
+    margin: 0;
+    padding: 10px;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: right;
+    display: block;
+}
+
+ul#nav li {
+    display: inline;
+    width: 25%;
+    padding: 10px;
+    padding-left: 15px;
+    
+}
+
+ul#nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*body*/
+
+.section {
+    height: 600px;
+    
 }
